@@ -1,11 +1,10 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include <boards.h>
 #include <game.h>
+#include <stdio.h>
 
 int main() {
-	ultimate_board board = make_ultimate_board();
-	char player = 'O';
+	ultimate_board board  = make_ultimate_board();
+	char           player = 'O';
 
 	while (1) {
 		selection us;
